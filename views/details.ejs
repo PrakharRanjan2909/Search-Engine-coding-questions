@@ -4,10 +4,10 @@
   <body>
     <%- include('./partials/nav.ejs') %>
     <div class="details content">
-      <h2><%= blog.title %></h2>
+      <h2><%- blog.title %></h2>
       <div><%- blog.body %></div>
-      <a class="delete" href="<%" ="blog.url" %
-        >>
+      <a class="delete" href=<%- blog.url %>>
+
         <!-- [link] -->
         <img src="/assets/link_black_24dp.svg" alt="link to question" />
       </a>
